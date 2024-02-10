@@ -1,3 +1,7 @@
 :host {
   z-index: 3;
 }
+#overlap-content{
+  padding-left: var(--cr-toolbar-selection-overlay-padding, 24px);
+  padding-right: var(--cr-toolbar-selection-overlay-padding, 60px);
+}
